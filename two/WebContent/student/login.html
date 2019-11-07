@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>用户登录</title>
+</head>
+<style type="text/css">
+* {
+	margin: 0rem;
+	padding: 0rem;
+	color: #676464;
+}
+
+#div1 {
+	height: 556.2px;
+	width: 100%;
+	background-color: #12548F;
+}
+
+table {
+	position: relative;
+	top: 95.53px;
+	margin: 0px auto;
+}
+
+#table2 {
+	width: 245px;
+	text-align: center;
+}
+</style>
+<body>
+	<div id="div1">
+		<form action="StudentLoginServlet" method="post">
+			<table>
+				<caption style="font-family: 微软雅黑; font-weight: bold; color: white;">用户登录</caption>
+				<tr height="50px">
+					<td width="50px"
+						style="font-family: 宋体; font-size: 14px; color: white; font-weight: bold;">用户名</td>
+					<td><input type="text" name="sname" id="" value="" /></td>
+				</tr>
+				<tr>
+					<td
+						style="font-family: 宋体; font-size: 14px; color: white; font-weight: bold;">密码</td>
+					<td><input type="password" name="spassword" /></td>
+				</tr>
+
+			</table>
+			<table id="table2">
+				<tr height="70px">
+					<td><input type="submit" name="" id="" value="登陆"
+						style="width: 70px; background-color: #ffffff; border: none; font-size: 12px; font-weight: 500;" /></td>
+					<td><input type="button" value="注册" onclick="window.location.href='register.jsp'"
+						style="width: 70px; background-color: #ffffff; border: none; font-size: 12px; font-weight: 500;" /></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
